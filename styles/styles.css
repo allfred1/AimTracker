@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+body {
+  background: black;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 100px;
+}
+.title {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.input {
+  max-width: 200px;
+  width: 100%;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.btn {
+  background: green;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.title__time {
+  color: white;
+}
+
+.game__block {
+  width: 500px;
+  height: 500px;
+  background: rgb(25, 23, 23);
+  box-shadow: 0 0 10px 0 white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.ball {
+  position: absolute;
+}
