@@ -1,12 +1,12 @@
 // был сделан рефакторинг кода, было ошибки и моменты даже когда игра даже не запускалась ;(
-const input = document.querySelector(".input"),
-  btn = document.querySelector(".btn"),
+const btn = document.querySelector(".btn"),
   timeOut = document.querySelector(".time"),
   gameBlock = document.querySelector(".game__block");
 
 let score = 0,
   gameTime = 0,
-  interval = 0;
+  interval = 0,
+  input = document.querySelector(".input");
 
 btn.addEventListener("click", () => {
   if (!input.value) {
